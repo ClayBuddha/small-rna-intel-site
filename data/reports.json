@@ -2,6 +2,26 @@
   "schedule": "每天 18:00",
   "timezone": "北京时间",
   "status": "监测已启用",
-  "lastUpdated": null,
-  "reports": []
+  "lastUpdated": "2026-08-02 18:01（北京时间）",
+  "reports": [
+    {
+      "date": "2026-08-02",
+      "generatedAt": "2026-08-02 18:01（北京时间）",
+      "highlights": [
+        "截至2026年8月2日18:00（北京时间），最近24小时未发现可由一手来源确认的小核酸药物实质性新增新闻。",
+        "为覆盖周末和跨时区迟发信息，检索窗口进一步回溯至48小时；仍未发现新的管线里程碑、临床数据、监管决定、融资或BD交易。",
+        "中国公众号检索结果有限，已使用搜狐新闻等可访问渠道补充核查，未检出符合时间窗口且可追溯至原始来源的新增事项。"
+      ],
+      "items": [],
+      "financingSummary": "本监测窗口内未发现小核酸药物领域新的、可核验的融资披露。",
+      "bdSummary": "本监测窗口内未发现小核酸药物领域新的、可核验的授权、合作或并购披露。",
+      "checkedSources": [
+        "主要小核酸企业官网与投资者关系新闻页：Alnylam、Ionis、Arrowhead、Wave Life Sciences、Stoke Therapeutics、Silence Therapeutics",
+        "监管与临床信息：FDA、EMA、ClinicalTrials.gov及中国药品监管公开渠道",
+        "公司公告、交易所披露、Business Wire、PR Newswire与GlobeNewswire",
+        "中国企业与行业公众号检索；受限时补充搜狗微信检索线索及搜狐新闻等可访问转载渠道",
+        "全球及中文医药行业媒体与新闻聚合检索"
+      ]
+    }
+  ]
 }
