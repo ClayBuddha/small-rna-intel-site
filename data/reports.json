@@ -1,7 +1,7 @@
 {
-  "schedule": "每天 18:00",
+  "schedule": "每小时整点",
   "timezone": "北京时间",
-  "status": "监测已启用",
+  "status": "每小时监测已启用",
   "lastUpdated": "2026-08-02 18:01（北京时间）",
   "reports": [
     {
