@@ -2,8 +2,100 @@
   "schedule": "每小时整点",
   "timezone": "北京时间",
   "status": "每小时监测已启用",
-  "lastUpdated": "2026-08-02 18:01（北京时间）",
+  "lastUpdated": "2026-08-05 13:24（北京时间）",
   "reports": [
+    {
+      "date": "2026-08-05",
+      "generatedAt": "2026-08-05 13:24（北京时间）",
+      "highlights": [
+        "Arrowhead Pharmaceuticals从未披露的第三方收购一张FDA罕见儿科疾病优先审评券（PRV），拟用于plozasiran治疗重度高甘油三酯血症（sHTG）的补充新药申请。",
+        "公司预计在2026年底前提交该sNDA；使用PRV可将FDA目标审评时限由标准审评的10个月缩短至6个月，但不代表申请已获受理或批准。",
+        "本次PRV交易的出售方、收购价格及付款结构均未披露；本监测窗口未发现其他可核验的小核酸药物新增融资或BD交易。"
+      ],
+      "items": [
+        {
+          "company": "Arrowhead Pharmaceuticals",
+          "people": "Christopher Anzalone，博士，总裁兼首席执行官",
+          "eventTime": "2026-08-05 04:00（北京时间；公司公告称当日已签署收购协议）",
+          "publishedTime": "2026-08-05 04:00（北京时间；美国东部时间2026-08-04 16:00）",
+          "region": "美国",
+          "asset": "plozasiran（REDEMPLO®）；FDA罕见儿科疾病优先审评券（PRV）",
+          "modalityTarget": "siRNA/RNAi；靶向APOC3；拟扩展适应症为重度高甘油三酯血症（sHTG）",
+          "stage": "FCS适应症已获批；sHTG适应症计划于2026年底前提交sNDA",
+          "pipelineProgress": "Arrowhead已签署协议收购一张FDA罕见儿科疾病PRV，并计划将其用于plozasiran的sHTG补充新药申请。公司称拟在2026年底前提交sNDA；PRV可把FDA目标审评时限由10个月缩短至6个月。该事项为审评加速准备，不等同于FDA已受理或批准申请，本次公告未披露新的临床结果。",
+          "financing": "未披露（PRV收购价格及付款结构均未披露）",
+          "bd": "从未披露的第三方收购一张FDA罕见儿科疾病PRV；交易对方、收购价格、付款安排及其他条款未披露",
+          "summary": "Arrowhead通过购买可转让的FDA优先审评券，为plozasiran从家族性乳糜微粒血症综合征（FCS）向重度高甘油三酯血症扩展适应症做监管准备。若公司按计划在2026年底前提交sNDA并使用该券，FDA目标审评周期将由标准的10个月缩短至6个月；券本身不保证申请获批。",
+          "sourceName": "Arrowhead Pharmaceuticals公司公告",
+          "sourceUrl": "https://ir.arrowheadpharma.com/news-releases/news-release-details/arrowhead-pharmaceuticals-acquires-fda-priority-review-voucher",
+          "verification": "已确认（公司一手公告；交易对方与金额未披露）"
+        }
+      ],
+      "financingSummary": "本监测窗口未发现新的、可核验的小核酸药物融资披露。Arrowhead收购PRV属于监管资产采购，交易价格与付款结构未披露，不计作融资。",
+      "bdSummary": "Arrowhead从未披露第三方收购一张FDA罕见儿科疾病优先审评券，拟用于plozasiran的sHTG补充新药申请；交易金额、付款结构及对方身份均未披露。",
+      "checkedSources": [
+        "Arrowhead Pharmaceuticals官网新闻稿、投资者关系RSS与2026财年第三季度业绩公告",
+        "ClinicalTrials.gov当日新增及更新记录（未发现2026-08-05发布的相关登记更新）",
+        "主要小核酸企业官网与投资者关系新闻页：Alnylam、Ionis、Arrowhead、Wave Life Sciences、Stoke Therapeutics、Silence Therapeutics、Praxis Precision Medicines",
+        "监管、交易所与新闻稿渠道：FDA、EMA、SEC、Business Wire、PR Newswire、GlobeNewswire及BioSpace",
+        "中国企业及行业公众号线索检索，并以搜狗微信、搜狐新闻等可访问渠道补充核查"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "generatedAt": "2026-08-04 23:58（北京时间）",
+      "highlights": [
+        "ClinicalTrials.gov于2026年8月3日首次公开登记n-Lorem Foundation的nL-TARDB-006研究：一项面向TARDBP致病变异相关肌萎缩侧索硬化症（ALS）的个体化ASO开放标签Ⅰ/Ⅱ期研究，计划邀请入组6人。",
+        "该登记显示研究已于2026年2月19日实际启动，由n-Lorem Foundation发起，并与哥伦比亚大学、华盛顿大学医学院协作；目前尚无临床结果披露。",
+        "Praxis Precision Medicines的PRAX-222（elsunersen）Ⅰ/Ⅱ期研究登记状态由“招募中”更新为“活跃、停止招募”；估计样本量仍为60人，未披露新的临床数据。",
+        "本监测窗口未发现可核验的小核酸药物新增融资或BD交易。"
+      ],
+      "items": [
+        {
+          "company": "n-Lorem Foundation；哥伦比亚大学；华盛顿大学医学院",
+          "people": "未披露",
+          "eventTime": "2026-02-19（研究登记载明的实际启动日，北京时间日期）",
+          "publishedTime": "2026-08-03（ClinicalTrials.gov首次公开登记日，北京时间日期）",
+          "region": "美国",
+          "asset": "nL-TARDB-006",
+          "modalityTarget": "个体化反义寡核苷酸（ASO）；靶向TARDBP致病变异相关RNA；适应症为TARDBP（TDP-43）遗传变异相关肌萎缩侧索硬化症（ALS）",
+          "stage": "Ⅰ/Ⅱ期；开放标签、单组；邀请入组",
+          "pipelineProgress": "ClinicalTrials.gov首次公开该研究（NCT07743268）。登记计划入组6人，主要观察治疗后12个月ALSFRS-R、慢肺活量、手持测力、认知行为量表、生存状态及神经丝轻链等变化；安全性与耐受性为其他结局。登记未披露剂量方案或临床结果。",
+          "financing": "未披露",
+          "bd": "未披露",
+          "summary": "一项此前已于2026年2月19日启动的TARDBP-ALS个体化ASO研究在8月3日首次进入ClinicalTrials.gov公开数据库。该项目由n-Lorem Foundation发起，哥伦比亚大学和华盛顿大学医学院协作，拟在美国两家中心邀请入组6名携带TARDBP致病变异的ALS参与者。此处记录的是首次公开登记，并非新披露疗效数据。",
+          "sourceName": "ClinicalTrials.gov（NCT07743268）",
+          "sourceUrl": "https://clinicaltrials.gov/study/NCT07743268",
+          "verification": "已确认（美国ClinicalTrials.gov一手登记；首次发布于2026-08-03）"
+        },
+        {
+          "company": "Praxis Precision Medicines",
+          "people": "未披露",
+          "eventTime": "2026-07-31（登记更新提交并通过质控日期，北京时间日期）",
+          "publishedTime": "2026-08-03（ClinicalTrials.gov更新发布日期，北京时间日期）",
+          "region": "美国、巴西",
+          "asset": "PRAX-222（elsunersen）",
+          "modalityTarget": "反义寡核苷酸（ASO）；抑制SCN2A表达；适应症为早发SCN2A发育性和癫痫性脑病",
+          "stage": "Ⅰ/Ⅱ期；活跃、停止招募（Active, not recruiting）",
+          "pipelineProgress": "ClinicalTrials.gov将NCT05737784的总体状态由“招募中”更新为“活跃、停止招募”。登记估计样本量仍为60人，主要和次要终点未变；记录未说明停止招募原因，因此不能据此推断试验完成或疗效结果。",
+          "financing": "未披露",
+          "bd": "未披露",
+          "summary": "PRAX-222研究的公开登记出现招募状态变化，表明当前不再接收新参与者，但试验仍处于活跃状态。此次更新未附公司新闻稿，也未新增疗效、安全性数据或样本量信息。",
+          "sourceName": "ClinicalTrials.gov（NCT05737784）",
+          "sourceUrl": "https://clinicaltrials.gov/study/NCT05737784",
+          "verification": "已确认（ClinicalTrials.gov登记状态更新；未见公司同步公告）"
+        }
+      ],
+      "financingSummary": "本监测窗口内未发现小核酸药物领域新的、可核验的融资披露。",
+      "bdSummary": "本监测窗口内未发现小核酸药物领域新的、可核验的授权、合作或并购披露。",
+      "checkedSources": [
+        "ClinicalTrials.gov新登记及记录历史：NCT07743268、NCT05737784，并核查同期小核酸相关更新",
+        "主要小核酸企业官网与投资者关系新闻页：Alnylam、Ionis、Arrowhead、Wave Life Sciences、Stoke Therapeutics、Silence Therapeutics、Praxis Precision Medicines",
+        "监管与临床信息：FDA、EMA、ClinicalTrials.gov及中国药品监管公开渠道",
+        "公司公告、交易所披露、Business Wire、PR Newswire、GlobeNewswire与BioSpace",
+        "中国企业及行业公众号线索检索，并以搜狐新闻、搜狗微信等可访问渠道补充核查"
+      ]
+    },
     {
       "date": "2026-08-02",
       "generatedAt": "2026-08-02 18:01（北京时间）",
