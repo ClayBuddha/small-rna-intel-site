@@ -348,3 +348,25 @@ footer { background: #0d140f; color: white; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
 }
+
+.investment-box {
+  margin: 16px 0 0;
+  padding: 13px 14px;
+  border-left: 3px solid #c98a2d;
+  background: #faf6ee;
+}
+.investment-box > span {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  color: #9a6a1f;
+  text-transform: uppercase;
+}
+.investment-box > p {
+  margin: 0;
+  color: #5f5a4d;
+  font-size: 12px;
+  line-height: 1.65;
+}

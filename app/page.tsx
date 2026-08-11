@@ -19,6 +19,7 @@ type NewsItem = {
   sourceName: string;
   sourceUrl: string;
   verification: string;
+  investmentValue: string;
 };
 
 type DailyReport = {
@@ -172,7 +173,7 @@ export default function Home() {
       <header className="masthead page-shell">
         <a className="wordmark" href="#top" aria-label="返回页面顶部">
           Oligo Intelligence
-          <small>每小时全球小核酸药物情报</small>
+          <small>每日8:00首发 · 每4小时更新</small>
         </a>
 
         <div className="masthead-actions">
@@ -182,14 +183,14 @@ export default function Home() {
             <a href="#archive">归档</a>
             <a href="#method">方法</a>
           </nav>
-          <span className="cadence">HOURLY</span>
+          <span className="cadence">8:00 · 4H</span>
         </div>
       </header>
 
       <section className="intro page-shell" aria-labelledby="page-title">
         <div>
           <p className="intro-kicker">GLOBAL SMALL RNA SIGNALS</p>
-          <h1 id="page-title">一小时，看清全球小核酸产业变化。</h1>
+          <h1 id="page-title">每日8:00首发，每4小时看全球小核酸产业变化。</h1>
         </div>
         <div className="intro-meta">
           <span className="live-dot"><i aria-hidden="true" />{data.status}</span>
@@ -281,6 +282,12 @@ export default function Home() {
                     </div>
                     <h3>{story.asset !== "未披露" ? `${story.company} · ${story.asset}` : story.company}</h3>
                     <p>{story.summary}</p>
+                    {story.investmentValue && (
+                      <div className="investment-box">
+                        <span>投资价值</span>
+                        <p>{story.investmentValue}</p>
+                      </div>
+                    )}
                     <dl>
                       <div><dt>地区</dt><dd>{story.region}</dd></div>
                       <div><dt>阶段</dt><dd>{story.stage}</dd></div>
@@ -315,7 +322,7 @@ export default function Home() {
             <div>
               <p>LAST CHECKED · {latest?.generatedAt ?? "等待更新"}</p>
               <h3>{activeCategory === "all" ? "本小时未发现实质性新增" : `${activeLabel}暂无新增`}</h3>
-              <span>已完成既定来源检查，不使用旧闻填充情报流。每小时整点会自动重新检索、核验并发布。</span>
+              <span>已完成既定来源检查，不使用旧闻填充情报流。每日8:00首发，每4小时会自动重新检索、核验并发布。</span>
             </div>
           </div>
         )}
@@ -379,7 +386,7 @@ export default function Home() {
             Oligo Intelligence
             <small>公开信息研究工具 · 不构成医疗或投资建议</small>
           </a>
-          <span>{data.schedule}自动更新</span>
+          <span>{data.schedule} · 每4小时自动更新</span>
           <a href="#top">回到顶部 ↑</a>
         </div>
       </footer>
