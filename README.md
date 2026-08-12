@@ -1,100 +1,34 @@
-# vinext-starter
+# 小核酸药物全球情报站（Oligo Intelligence）
 
-A clean full-stack starter running on
-[vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
-Drizzle support.
+自动搜集、分析与总结全球小核酸药物信息，并通过网站发布。
 
-## Prerequisites
+## 发布节奏
 
-- Node.js `>=22.13.0`
+- 每日 8:00（北京时间）发布第一版
+- 之后每 4 小时更新一版（8:00 / 12:00 / 16:00 / 20:00 / 0:00 / 4:00）
 
-## Quick Start
+## 覆盖范围
 
-```bash
-npm install
-npm run dev
-npm run build
-```
+- 技术类型：siRNA、ASO、miRNA、saRNA、核酸适配体、抗体寡核苷酸偶联物（AOC）、寡核苷酸偶联物及递送技术
+- 内容类型：管线阶段变化、临床数据、监管决定、融资与资本动作、BD/授权/并购、关键人物与组织变动、递送平台进展、产业研究
 
-This starter does not use `wrangler.jsonc`.
+## 数据说明
 
-## Included Shape
+- 每条新闻包含 300–500 字中文摘要和“投资价值”分析（`investmentValue` 字段）
+- 每条新闻至少附一个可核验来源链接，并区分已确认消息、公司口径、媒体报道与待核实信息
+- 金额保留原币种，未知项写“未披露”
+- 数据文件：`data/reports.json`，以北京时间自然日归档，保留全部历史
 
-- edit site code under `app/`
-- `.openai/hosting.json` declares optional Sites D1 and R2 bindings
-- `vite.config.ts` simulates declared bindings for local development
-- `db/schema.ts` starts intentionally empty
-- `examples/d1/` contains an optional D1 example surface
-- `drizzle.config.ts` supports local migration generation when needed
+## 信息来源
 
-## Workspace Auth Headers
+- 公司官网新闻稿与投资者关系页、交易所公告、监管机构（FDA、EMA、NMPA/CDE、ClinicalTrials.gov）与学术会议官方信息
+- 企业及行业微信公众号文章；若微信文章被屏蔽或无法访问，使用搜狗微信搜索、搜狐新闻、知乎专栏等可访问渠道补充，并尽量追溯原始来源
 
-Signed-in visitors receive both `oai-authenticated-user-id` and `oai-authenticated-user-email`. Private Sites require every visitor to sign in; public Sites may also have anonymous visitors, for whom neither header is present.
+## 免责声明
 
-The user ID is stable for the same user on the same Site and different across Sites. Email and name are intended for display or contact purposes.
+本项目为公开信息研究工具，内容仅供参考，不构成医疗或投资建议。
 
-SIWC-authenticated workspace sites may also receive
-`oai-authenticated-user-full-name` when the user's SIWC profile has a non-empty
-`name` claim. The full-name value is percent-encoded UTF-8 and is accompanied by
-`oai-authenticated-user-full-name-encoding: percent-encoded-utf-8`.
+## 技术栈
 
-Treat the full name as optional and fall back to email when it is absent:
-
-```tsx
-import { headers } from "next/headers";
-
-export default async function Home() {
-  const requestHeaders = await headers();
-  const userId = requestHeaders.get("oai-authenticated-user-id");
-  const email = requestHeaders.get("oai-authenticated-user-email");
-  const encodedFullName = requestHeaders.get("oai-authenticated-user-full-name");
-  const fullName =
-    encodedFullName &&
-    requestHeaders.get("oai-authenticated-user-full-name-encoding") ===
-      "percent-encoded-utf-8"
-      ? decodeURIComponent(encodedFullName)
-      : null;
-
-  const displayName = fullName ?? email;
-  // ...
-}
-```
-
-## Optional Dispatch-Owned ChatGPT Sign-In
-
-Import the ready-to-use helpers from `app/chatgpt-auth.ts` when the site needs
-optional or required ChatGPT sign-in:
-
-- Use `getChatGPTUser()` for optional signed-in UI.
-- Use `requireChatGPTUser(returnTo)` for server-rendered pages that should send
-  anonymous visitors through Sign in with ChatGPT.
-- Use `chatGPTSignInPath(returnTo)` and `chatGPTSignOutPath(returnTo)` for
-  browser links or actions.
-- Pass a same-origin relative `returnTo` path for the destination after sign-in
-  or sign-out. The helper validates and safely encodes it.
-- Mark protected pages with `export const dynamic = "force-dynamic"` because
-  they depend on per-request identity headers.
-
-Dispatch owns `/signin-with-chatgpt`, `/signout-with-chatgpt`, `/callback`, the
-OAuth cookies, and identity header injection. Do not implement app routes for
-those reserved paths. Routes that do not import and call the helper remain
-anonymous-compatible.
-
-SIWC establishes identity only; it does not prove workspace membership. Use the
-Sites hosting platform's access policy controls for workspace-wide restrictions,
-or enforce explicit server-side membership or allowlist checks.
-
-Use SIWC for account pages, user-specific dashboards, saved records, and write
-actions tied to the current ChatGPT user. Leave public content anonymous.
-
-## Useful Commands
-
-- `npm run dev`: start local development
-- `npm run build`: verify the vinext build output
-- `npm test`: build the starter and verify its rendered loading skeleton
-- `npm run db:generate`: generate Drizzle migrations after schema changes
-
-## Learn More
-
-- [vinext Documentation](https://github.com/cloudflare/vinext)
-- [Drizzle D1 Guide](https://orm.drizzle.team/docs/get-started/d1-new)
+- [vinext](https://github.com/cloudflare/vinext) / Next.js / React
+- Cloudflare Worker 部署（`.openai/hosting.json` 配置）
