@@ -2,8 +2,82 @@
   "schedule": "每日8:00首发，每4小时更新",
   "timezone": "北京时间",
   "status": "每日8:00首发 · 每4小时更新监测已启用",
-  "lastUpdated": "2026-08-12 05:25（北京时间）",
+  "lastUpdated": "2026-08-12 13:55（北京时间）",
   "reports": [
+    {
+      "date": "2026-08-12",
+      "generatedAt": "2026-08-12 13:55（北京时间）",
+      "highlights": [
+        "Silence Therapeutics 将 ADS 发行上调并定价：以每份 13.50 美元发行 12,962,963 份 ADS，毛所得约 1.75 亿美元（原公告约 1.5 亿美元），预计 8 月 13 日前后交割。",
+        "Phio Pharmaceuticals 获美国专利授权通知，覆盖靶向 BRD4 的 INTASYL® siRNA 化合物 PH-894。",
+        "Silexion Therapeutics 定价约 250 万美元公开发行（KRAS 靶向 siRNA 公司）。"
+      ],
+      "items": [
+        {
+          "company": "Silence Therapeutics plc",
+          "people": "未披露",
+          "eventTime": "2026-08-12（定价公告日，Business Wire 伦敦；北京时间 2026-08-12 05:20 前后）",
+          "publishedTime": "2026-08-12 05:20（北京时间）",
+          "region": "英国（伦敦）／美国",
+          "asset": "ADS 公开发行定价（更新：原公告拟发行约 1.5 亿美元，现上调至约 1.75 亿美元）",
+          "modalityTarget": "siRNA 平台公司资本运作（mRNAi GOLD™ 平台；divesiran 等管线）",
+          "stage": "已定价；预计 2026-08-13 前后完成交割",
+          "pipelineProgress": "以每份 ADS 13.50 美元发行 12,962,963 份 ADS（每份代表 3 股普通股），毛所得约 1.75 亿美元；承销商获 30 天超额配售权最多 1,944,444 份 ADS；联席账簿管理人包括 Jefferies、Morgan Stanley、Cantor 与 William Blair；所得款项拟用于 mRNAi GOLD 平台与 siRNA 管线开发。",
+          "financing": "约 175,000,000 美元（毛额；12,962,963 份 ADS × 13.50 美元，另有最多 1,944,444 份超额配售）",
+          "bd": "未披露",
+          "summary": "Silence Therapeutics 于 2026 年 8 月 12 日宣布其此前公告的美国存托股份（ADS）公开发行已定价并上调规模：以每份 13.50 美元发行 12,962,963 份 ADS（每份代表 3 股普通股），毛所得约 1.75 亿美元，高于最初公告的约 1.5 亿美元；承销商另有 30 天超额配售权可增购最多 1,944,444 份。此次定价紧接 divesiran 二期 SANRECO 顶线阳性，机构认购需求超预期促使发行上调，款项拟用于 mRNAi GOLD 平台及 siRNA 管线。发行预计 8 月 13 日前后交割。对既有股东而言，本次发行新增约 1296 万份 ADS（约 3889 万股普通股）摊薄，但显著延长公司现金跑道，为 divesiran 进入 III 期提供资金。",
+          "sourceName": "Silence Therapeutics 公司公告（Business Wire，2026-08-12；经媒体转载核验）",
+          "sourceUrl": "https://www.edgen.tech/zh/news/post/silence-therapeutics-prices-175m-offering-to-extend-sirna-cash-runway",
+          "verification": "已确认（公司一手公告经 Business Wire 发布；Yahoo Finance、Barchart、GuruFocus 等多源交叉转载）",
+          "investmentValue": "发行上调并快速定价显示机构需求强于预期，短期摊薄但显著延长现金跑道以支撑 divesiran III 期；关注交割完成、最终净募资额及后续临床数据读出对 SLN 估值的影响。"
+        },
+        {
+          "company": "Phio Pharmaceuticals",
+          "people": "Robert Bitterman，总裁兼首席执行官",
+          "eventTime": "2026-08-11（公告日，美国东部时间）",
+          "publishedTime": "2026-08-12（北京时间；美国东部时间 2026-08-11）",
+          "region": "美国（宾夕法尼亚州）",
+          "asset": "PH-894（INTASYL® 专利组合；美国专利授权通知）",
+          "modalityTarget": "自递送 siRNA（INTASYL®）；靶向 BRD4；免疫肿瘤",
+          "stage": "美国专利授权通知（Notice of Allowance）",
+          "pipelineProgress": "美国专利商标局发出覆盖 PH-894 的专利授权通知；公司称已建立 54 项授权专利组合，覆盖 INTASYL 化学、特定基因靶点、免疫肿瘤化合物与治疗应用；PH-894 用于选择性沉默 BRD4，是基因表达的关键调控因子。",
+          "financing": "未披露",
+          "bd": "未披露（公司称将推进国际战略合作）",
+          "summary": "Phio Pharmaceuticals 于 2026 年 8 月 11 日宣布收到美国专利商标局（USPTO）对覆盖 PH-894 的专利授权通知。PH-894 是公司基于 INTASYL® 自递送 siRNA 技术开发的化合物，选择性沉默 BRD4，BRD4 是与增殖及感染性疾病相关的基因表达关键调控因子。公司表示此举强化其 INTASYL 平台在美国的知识产权保护，并为推进 PH-894 与寻求国际战略合作奠定基础；其专利组合现含 54 项授权专利，覆盖平台化学、基因靶点与免疫肿瘤应用。Phio 当前临床主线为 PH-762（沉默 PD-1，用于皮肤鳞癌、黑色素瘤与默克尔细胞癌的 Ib 期）。该事件属于 RNAi 药物发现/递送技术相关的知识产权进展。",
+          "sourceName": "Phio Pharmaceuticals 公司公告（Newsfile）",
+          "sourceUrl": "https://www.newsfilecorp.com/release/309064/Phio-Pharmaceuticals-Secures-U.S.-Notice-of-Allowance-for-INTASYL-Composition-Selectively-Targeting-BRD4-Protein-with-Compound-PH894",
+          "verification": "已确认（公司一手公告）",
+          "investmentValue": "专利授权增强 INTASYL 平台在 BRD4 靶点的保护与对外授权可及性，属早期知识产权信号；Phio 平台价值兑现仍依赖 PH-762 等临床数据与资金状况，属高风险观察标的。"
+        },
+        {
+          "company": "Silexion Therapeutics",
+          "people": "未披露",
+          "eventTime": "2026-08-11（定价公告日，开曼群岛；美国东部时间）",
+          "publishedTime": "2026-08-12（北京时间）",
+          "region": "开曼群岛／美国",
+          "asset": "公开发行定价（约 250 万美元）",
+          "modalityTarget": "siRNA（KRAS 靶向，胰腺癌等实体瘤）；RNA 干扰疗法公司资本运作",
+          "stage": "已定价",
+          "pipelineProgress": "定价约 250 万美元的公开发行，扣除配售代理费及其他发行费用前的毛所得约 250 万美元；公司专注 KRAS 突变驱动癌症的 siRNA 疗法。",
+          "financing": "约 2,500,000 美元（毛额，扣除费用前）",
+          "bd": "未披露",
+          "summary": "Silexion Therapeutics 于 2026 年 8 月 11 日宣布其公开发行定价，扣除配售代理费及其他发行费用前的毛所得预计约 250 万美元。Silexion 为专注于 KRAS 突变驱动实体瘤（以胰腺癌为先导）的 siRNA 疗法公司，通过 RNA 干扰靶向 KRAS 通路。此次小额融资延续其依赖公开市场融资维持运营的模式，公司具体发行股数、定价与费用结构以正式公告为准。该事件属于小核酸（siRNA）公司在资本端的小额进展，规模与影响力有限，但对理解早期 RNAi 公司的融资节奏与生存压力具有参考意义。",
+          "sourceName": "Silexion Therapeutics 公司公告（GlobeNewswire，经财经媒体转载）",
+          "sourceUrl": "https://sg.finance.yahoo.com/news/silexion-therapeutics-announces-pricing-2-000100074.html",
+          "verification": "已确认（公司一手公告经 GlobeNewswire 发布；Yahoo Finance、TradingView、Stockhouse 等多源交叉转载）",
+          "investmentValue": "小额融资反映早期 RNAi 公司普遍依赖资本市场续命；KRAS 靶向 siRNA 具理论差异化但临床验证尚早，属高风险观察标的，关注资金消耗速度与临床里程碑。"
+        }
+      ],
+      "financingSummary": "本轮新增两起资本事件：Silence Therapeutics 定价并上调 ADS 发行至约 1.75 亿美元（每份 13.50 美元，12,962,963 份，另有 30 天超额配售最多 1,944,444 份）；Silexion Therapeutics 定价约 250 万美元公开发行。",
+      "bdSummary": "本轮未发现新的 BD/授权/并购交易。",
+      "checkedSources": [
+        "Business Wire / Silence Therapeutics 官网与投资者关系页（ADS 发行定价，2026-08-12）",
+        "Newsfile / Phio Pharmaceuticals 官网（美国专利授权通知）",
+        "GlobeNewswire 及财经媒体转载（Silexion 公开发行定价）",
+        "ClinicalTrials.gov、FDA、CDE 等监管数据库（本轮未发现新的可核验登记更新）",
+        "主要小核酸企业官网、投资者关系页及公众号/转载渠道检索"
+      ]
+    },
     {
       "date": "2026-08-11",
       "generatedAt": "2026-08-12 05:25（北京时间）",
@@ -1950,7 +2024,8 @@
           "summary": "Arrowhead通过购买可转让的FDA优先审评券，为plozasiran从家族性乳糜微粒血症综合征（FCS）向重度高甘油三酯血症扩展适应症做监管准备。若公司按计划在2026年底前提交sNDA并使用该券，FDA目标审评周期将由标准的10个月缩短至6个月；券本身不保证申请获批。",
           "sourceName": "Arrowhead Pharmaceuticals公司公告",
           "sourceUrl": "https://ir.arrowheadpharma.com/news-releases/news-release-details/arrowhead-pharmaceuticals-acquires-fda-priority-review-voucher",
-          "verification": "已确认（公司一手公告；交易对方与金额未披露）"
+          "verification": "已确认（公司一手公告；交易对方与金额未披露）",
+          "investmentValue": "收购 PRV 可将 FDA 目标审评周期由 10 个月缩短至 6 个月，若 plozasiran 的 sHTG 补充申请获批，有望提前兑现销售现金流并强化 REDEMPLO 第二适应症布局；但收购成本、对方身份及付款结构未披露，且 PRV 不保证获批，对估值的边际贡献有限，属战术性催化。"
         }
       ],
       "financingSummary": "本监测窗口未发现新的、可核验的小核酸药物融资披露。Arrowhead收购PRV属于监管资产采购，交易价格与付款结构未披露，不计作融资。",
@@ -1988,7 +2063,8 @@
           "summary": "一项此前已于2026年2月19日启动的TARDBP-ALS个体化ASO研究在8月3日首次进入ClinicalTrials.gov公开数据库。该项目由n-Lorem Foundation发起，哥伦比亚大学和华盛顿大学医学院协作，拟在美国两家中心邀请入组6名携带TARDBP致病变异的ALS参与者。此处记录的是首次公开登记，并非新披露疗效数据。",
           "sourceName": "ClinicalTrials.gov（NCT07743268）",
           "sourceUrl": "https://clinicaltrials.gov/study/NCT07743268",
-          "verification": "已确认（美国ClinicalTrials.gov一手登记；首次发布于2026-08-03）"
+          "verification": "已确认（美国ClinicalTrials.gov一手登记；首次发布于2026-08-03）",
+          "investmentValue": "该项目是 TARDBP-ALS 个体化 ASO 的公开先例，验证 n-Lorem 面向超罕见病“一对一”ASO 模式，对小核酸个性化医疗与罕见病支付生态具有参照意义；但仅计划入组 6 人、属探索性研究且无疗效数据，对上市公司直接投资参考有限，可作为观察 ASO 个体化设计与临床可及性的指标。"
         },
         {
           "company": "Praxis Precision Medicines",
@@ -2005,7 +2081,8 @@
           "summary": "PRAX-222研究的公开登记出现招募状态变化，表明当前不再接收新参与者，但试验仍处于活跃状态。此次更新未附公司新闻稿，也未新增疗效、安全性数据或样本量信息。",
           "sourceName": "ClinicalTrials.gov（NCT05737784）",
           "sourceUrl": "https://clinicaltrials.gov/study/NCT05737784",
-          "verification": "已确认（ClinicalTrials.gov登记状态更新；未见公司同步公告）"
+          "verification": "已确认（ClinicalTrials.gov登记状态更新；未见公司同步公告）",
+          "investmentValue": "PRAX-222（elsunersen）是早发 SCN2A 发育性癫痫脑病领域进展较快的 ASO 项目，试验停止招募通常预示数据读出临近，若后续披露阳性结果将验证 ASO 在中枢神经系统疾病的应用价值；但本次仅为登记状态更新、无数据披露，短期驱动有限，需等待公司公告及数据。"
         }
       ],
       "financingSummary": "本监测窗口内未发现小核酸药物领域新的、可核验的融资披露。",
